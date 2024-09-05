@@ -1,0 +1,6 @@
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-lates
+    steps: echo "Hello World! The job was automatically triggered by a ${{github.event.name }}"
